@@ -26,7 +26,7 @@
   },
   "exports": {
     ".": {
-      "import": "./build/tailwind/index.js"
+      "require": "./build/tailwind/index.js"
     }
   }
 }
