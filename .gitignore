@@ -1,7 +1,4 @@
 node_modules
 .DS_Store
 build
-public
-dist
-dist-ssr
 *.local

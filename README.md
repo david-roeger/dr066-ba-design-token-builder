@@ -1,16 +1,30 @@
-# Development System showcasing the design components
+# Design Tokens
 
-## Developing
+Generate Design Tokens based on Figma file.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Edit config obj in buildDictionary.js for more plattform support
 
+<br>
+
+Build all files:
 ```bash
-npm run storybook
-
-
-## Building
-
-```bash
-npm run build
+npm run dev
 ```
 
+<br>
+
+Generate Tokens:
+```bash
+npm run generate
+```
+
+<br>
+
+Build Dictionary Files:
+```bash
+npm run build-dictionary
+```
+
+<br>
+
+Edit tailwind config file to include more Tailwind styles!
