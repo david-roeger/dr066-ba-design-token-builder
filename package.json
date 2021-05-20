@@ -25,6 +25,8 @@
     "style-dictionary": "^2.10.3"
   },
   "exports": {
-    "tailwind-tokens": "./build/tailwind/tailwind.config.js"
+    ".": {
+      "import": "./build/tailwind/index.js"
+    }
   }
 }

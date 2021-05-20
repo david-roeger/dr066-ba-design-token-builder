@@ -38,7 +38,6 @@ for (const element in grid) {
   gridObj[element] = `repeat(${grid[element].value}, minmax(0, 1fr))`
 }
 
-console.log(gridObj); 
 module.exports = {
   mode: 'jit',
   purge: {

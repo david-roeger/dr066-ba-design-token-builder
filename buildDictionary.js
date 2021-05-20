@@ -30,7 +30,7 @@ const styleDictionary = require('style-dictionary').extend(config);
 async function run() {
     await del('./build');
     await styleDictionary.buildAllPlatforms();
-    fs.copyFile('./tailwind.config.js', './build/tailwind/tailwind.config.js', (err) => {
+    fs.copyFile('./tailwind.config.js', './build/tailwind/index.js', (err) => {
         if (err) throw err;
         console.log('source.txt was copied to destination.txt');
       });
