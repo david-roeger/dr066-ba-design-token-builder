@@ -1,7 +1,7 @@
 {
-  "name": "dr066-ba-development-system",
+  "name": "dr066-ba-design-token-builder",
   "version": "1.0.0",
-  "description": "development system for creating components",
+  "description": "script for creating design tokens using Figma and Style Dictionary",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

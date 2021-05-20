@@ -28,4 +28,9 @@ npm run build-dictionary
 
 <br>
 
-Inspired by https://github.com/PavelLaptev/wunderzin
+Using:<br>
+Figma Api + https://amzn.github.io/style-dictionary/
+
+<br>
+
+Inspired by:<br> https://github.com/PavelLaptev/wunderzin
