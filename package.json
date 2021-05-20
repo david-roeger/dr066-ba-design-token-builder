@@ -2,7 +2,7 @@
   "name": "dr066-ba-design-token-builder",
   "version": "1.0.0",
   "description": "script for creating design tokens using Figma and Style Dictionary",
-  "main": "main.js",
+  "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node generateToken.js",
@@ -23,5 +23,8 @@
     "del": "^6.0.0",
     "node-fetch": "^2.6.1",
     "style-dictionary": "^2.10.3"
+  },
+  "exports": {
+    "tailwind-tokens": "./build/tailwind/tailwind.config.js"
   }
 }
