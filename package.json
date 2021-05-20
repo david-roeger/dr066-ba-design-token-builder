@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://david_roeger@github.com/david-roeger/dr066-ba-development-system.git"
+    "url": "git+https://github.com/david-roeger/dr066-ba-design-token-builder"
   },
   "author": "David Roeger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/david-roeger/dr066-ba-development-system/issues"
+    "url": "https://github.com/david-roeger/dr066-ba-design-token-builder/issues"
   },
-  "homepage": "https://github.com/david-roeger/dr066-ba-development-system#readme",
+  "homepage": "https://github.com/david-roeger/dr066-ba-design-token-builder#readme",
   "dependencies": {
     "del": "^6.0.0",
     "node-fetch": "^2.6.1",
