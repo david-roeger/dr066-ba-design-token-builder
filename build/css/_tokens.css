@@ -1,0 +1,46 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 20 May 2021 19:10:07 GMT
+ */
+
+:root {
+  --colors-black: rgba(11, 11, 28, 1);
+  --colors-white: rgba(255, 255, 255, 1);
+  --colors-gray-100: rgba(236, 239, 244, 1);
+  --colors-gray-300: rgba(218, 221, 227, 1);
+  --colors-gray-500: rgba(109, 109, 119, 1);
+  --colors-gray-700: rgba(58, 58, 58, 1);
+  --colors-pink-300: rgba(255, 190, 217, 1);
+  --colors-pink-500: rgba(249, 115, 171, 1);
+  --colors-pink-700: rgba(205, 85, 135, 1);
+  --colors-purple-300: rgba(220, 194, 255, 1);
+  --colors-purple-500: rgba(183, 129, 251, 1);
+  --colors-purple-700: rgba(153, 105, 214, 1);
+  --colors-green-300: rgba(181, 239, 226, 1);
+  --colors-green-500: rgba(106, 211, 188, 1);
+  --colors-green-700: rgba(83, 177, 157, 1);
+  --colors-orange-300: rgba(253, 178, 142, 1);
+  --colors-orange-500: rgba(250, 139, 84, 1);
+  --colors-orange-700: rgba(218, 120, 73, 1);
+  --font-sm-family: Inter;
+  --font-sm-size: 12px;
+  --font-sm-lineheight: 16px;
+  --font-md-family: Inter;
+  --font-md-size: 16px;
+  --font-md-lineheight: 24px;
+  --font-xl-family: Inter;
+  --font-xl-size: 24px;
+  --font-xl-lineheight: 32px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-xl: 32px;
+  --break-points-xs: 414px;
+  --break-points-sm: 768px;
+  --break-points-md: 1024px;
+  --break-points-xl: 1440px;
+  --grid-xs: 2;
+  --grid-sm: 4;
+  --grid-md: 6;
+  --grid-xl: 8;
+}
