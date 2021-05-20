@@ -27,4 +27,4 @@ npm run build-dictionary
 
 <br>
 
-Reference: https://github.com/PavelLaptev/wunderzin
+Inspired by https://github.com/PavelLaptev/wunderzin
