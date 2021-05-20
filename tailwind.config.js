@@ -39,37 +39,27 @@ for (const element in grid) {
 }
 
 module.exports = {
-  mode: 'jit',
-  purge: {
-    enabled: process.env.NODE_ENV === 'production',
-    safeList: [],
-    content: ['./index.html', './src/**/*.tsx', './src/**/*.ts'],
+  screens: {
+    ...breakPointsObj
   },
-  theme: {
-    screens: {
-      ...breakPointsObj
+  colors: {
+    ...colorObj
+  },
+  fontSize: {
+    ...fontObj.size
+  },
+  lineHeight: {
+    ...fontObj.lineHeight
+  },
+  spacing: {
+      ...spacingObj
+  },
+  extend: {
+    fontFamily: {
+      ...fontObj.fontFamily
     },
-    colors: {
-      ...colorObj
-    },
-    fontSize: {
-      ...fontObj.size
-    },
-    lineHeight: {
-      ...fontObj.lineHeight
-    },
-    spacing: {
-        ...spacingObj
-    },
-    extend: {
-      fontFamily: {
-        ...fontObj.fontFamily
-      },
-      gridTemplateColumns: {
-        ...gridObj
-      }
+    gridTemplateColumns: {
+      ...gridObj
     }
-  },
-  variants: {},
-  plugins: [],
+  }
 }
