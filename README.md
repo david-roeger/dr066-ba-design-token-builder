@@ -27,4 +27,4 @@ npm run build-dictionary
 
 <br>
 
-Edit tailwind config file to include more Tailwind styles!
+Reference: https://github.com/PavelLaptev/wunderzin
