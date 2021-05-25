@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 May 2021 20:22:27 GMT
+ * Generated on Tue, 25 May 2021 22:39:25 GMT
  */
 
 module.exports = {
@@ -105,6 +105,57 @@ module.exports = {
       "path": [
         "colors",
         "gray-700"
+      ]
+    },
+    "yellow-500": {
+      "value": "rgba(255, 198, 99, 1)",
+      "type": "color",
+      "original": {
+        "value": "rgba(255, 198, 99, 1)",
+        "type": "color"
+      },
+      "name": "ColorsYellow500",
+      "attributes": {
+        "category": "colors",
+        "type": "yellow-500"
+      },
+      "path": [
+        "colors",
+        "yellow-500"
+      ]
+    },
+    "blue-500": {
+      "value": "rgba(112, 127, 220, 1)",
+      "type": "color",
+      "original": {
+        "value": "rgba(112, 127, 220, 1)",
+        "type": "color"
+      },
+      "name": "ColorsBlue500",
+      "attributes": {
+        "category": "colors",
+        "type": "blue-500"
+      },
+      "path": [
+        "colors",
+        "blue-500"
+      ]
+    },
+    "red-500": {
+      "value": "rgba(249, 109, 94, 1)",
+      "type": "color",
+      "original": {
+        "value": "rgba(249, 109, 94, 1)",
+        "type": "color"
+      },
+      "name": "ColorsRed500",
+      "attributes": {
+        "category": "colors",
+        "type": "red-500"
+      },
+      "path": [
+        "colors",
+        "red-500"
       ]
     },
     "pink-300": {
@@ -372,7 +423,7 @@ module.exports = {
         ]
       }
     },
-    "md": {
+    "base": {
       "family": {
         "value": "Inter",
         "type": "typography",
@@ -380,15 +431,15 @@ module.exports = {
           "value": "Inter",
           "type": "typography"
         },
-        "name": "FontMdFamily",
+        "name": "FontBaseFamily",
         "attributes": {
           "category": "font",
-          "type": "md",
+          "type": "base",
           "item": "family"
         },
         "path": [
           "font",
-          "md",
+          "base",
           "family"
         ]
       },
@@ -399,15 +450,15 @@ module.exports = {
           "value": "16px",
           "type": "typography"
         },
-        "name": "FontMdSize",
+        "name": "FontBaseSize",
         "attributes": {
           "category": "font",
-          "type": "md",
+          "type": "base",
           "item": "size"
         },
         "path": [
           "font",
-          "md",
+          "base",
           "size"
         ]
       },
@@ -418,15 +469,15 @@ module.exports = {
           "value": "24px",
           "type": "typography"
         },
-        "name": "FontMdLineheight",
+        "name": "FontBaseLineheight",
         "attributes": {
           "category": "font",
-          "type": "md",
+          "type": "base",
           "item": "lineheight"
         },
         "path": [
           "font",
-          "md",
+          "base",
           "lineheight"
         ]
       }
@@ -543,6 +594,23 @@ module.exports = {
         "md"
       ]
     },
+    "lg": {
+      "value": "24px",
+      "type": "space",
+      "original": {
+        "value": "24px",
+        "type": "space"
+      },
+      "name": "SpacingLg",
+      "attributes": {
+        "category": "spacing",
+        "type": "lg"
+      },
+      "path": [
+        "spacing",
+        "lg"
+      ]
+    },
     "xl": {
       "value": "32px",
       "type": "space",
@@ -562,28 +630,11 @@ module.exports = {
     }
   },
   "breakPoints": {
-    "xs": {
+    "sm": {
       "value": "414px",
       "type": "breakPoint",
       "original": {
         "value": "414px",
-        "type": "breakPoint"
-      },
-      "name": "BreakPointsXs",
-      "attributes": {
-        "category": "breakPoints",
-        "type": "xs"
-      },
-      "path": [
-        "breakPoints",
-        "xs"
-      ]
-    },
-    "sm": {
-      "value": "768px",
-      "type": "breakPoint",
-      "original": {
-        "value": "768px",
         "type": "breakPoint"
       },
       "name": "BreakPointsSm",
@@ -597,10 +648,10 @@ module.exports = {
       ]
     },
     "md": {
-      "value": "1024px",
+      "value": "768px",
       "type": "breakPoint",
       "original": {
-        "value": "1024px",
+        "value": "768px",
         "type": "breakPoint"
       },
       "name": "BreakPointsMd",
@@ -611,6 +662,23 @@ module.exports = {
       "path": [
         "breakPoints",
         "md"
+      ]
+    },
+    "lg": {
+      "value": "1024px",
+      "type": "breakPoint",
+      "original": {
+        "value": "1024px",
+        "type": "breakPoint"
+      },
+      "name": "BreakPointsLg",
+      "attributes": {
+        "category": "breakPoints",
+        "type": "lg"
+      },
+      "path": [
+        "breakPoints",
+        "lg"
       ]
     },
     "xl": {
@@ -632,28 +700,11 @@ module.exports = {
     }
   },
   "grid": {
-    "xs": {
+    "sm": {
       "value": "2",
       "type": "count",
       "original": {
         "value": "2",
-        "type": "count"
-      },
-      "name": "GridXs",
-      "attributes": {
-        "category": "grid",
-        "type": "xs"
-      },
-      "path": [
-        "grid",
-        "xs"
-      ]
-    },
-    "sm": {
-      "value": "4",
-      "type": "count",
-      "original": {
-        "value": "4",
         "type": "count"
       },
       "name": "GridSm",
@@ -667,10 +718,10 @@ module.exports = {
       ]
     },
     "md": {
-      "value": "6",
+      "value": "4",
       "type": "count",
       "original": {
-        "value": "6",
+        "value": "4",
         "type": "count"
       },
       "name": "GridMd",
@@ -681,6 +732,23 @@ module.exports = {
       "path": [
         "grid",
         "md"
+      ]
+    },
+    "lg": {
+      "value": "6",
+      "type": "count",
+      "original": {
+        "value": "6",
+        "type": "count"
+      },
+      "name": "GridLg",
+      "attributes": {
+        "category": "grid",
+        "type": "lg"
+      },
+      "path": [
+        "grid",
+        "lg"
       ]
     },
     "xl": {

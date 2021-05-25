@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 May 2021 20:22:27 GMT
+ * Generated on Tue, 25 May 2021 22:39:25 GMT
  */
 
 :root {
@@ -10,6 +10,9 @@
   --colors-gray-300: rgba(218, 221, 227, 1);
   --colors-gray-500: rgba(109, 109, 119, 1);
   --colors-gray-700: rgba(58, 58, 58, 1);
+  --colors-yellow-500: rgba(255, 198, 99, 1);
+  --colors-blue-500: rgba(112, 127, 220, 1);
+  --colors-red-500: rgba(249, 109, 94, 1);
   --colors-pink-300: rgba(255, 190, 217, 1);
   --colors-pink-500: rgba(249, 115, 171, 1);
   --colors-pink-700: rgba(205, 85, 135, 1);
@@ -25,22 +28,23 @@
   --font-sm-family: Inter;
   --font-sm-size: 12px;
   --font-sm-lineheight: 16px;
-  --font-md-family: Inter;
-  --font-md-size: 16px;
-  --font-md-lineheight: 24px;
+  --font-base-family: Inter;
+  --font-base-size: 16px;
+  --font-base-lineheight: 24px;
   --font-xl-family: Inter;
   --font-xl-size: 24px;
   --font-xl-lineheight: 32px;
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
+  --spacing-lg: 24px;
   --spacing-xl: 32px;
-  --break-points-xs: 414px;
-  --break-points-sm: 768px;
-  --break-points-md: 1024px;
+  --break-points-sm: 414px;
+  --break-points-md: 768px;
+  --break-points-lg: 1024px;
   --break-points-xl: 1440px;
-  --grid-xs: 2;
-  --grid-sm: 4;
-  --grid-md: 6;
+  --grid-sm: 2;
+  --grid-md: 4;
+  --grid-lg: 6;
   --grid-xl: 8;
 }

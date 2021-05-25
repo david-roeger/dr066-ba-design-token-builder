@@ -45,7 +45,9 @@ function getFont(stylesArtboard) {
     const fontArtboard = stylesArtboard.filter(style => {
         return style.name === "Typography";
     })[0].children;
-    fontArtboard.map(fontVariation => {
+   
+    fontArtboard.map(fontVariationComponent => {
+        fontVariation = fontVariationComponent.children[0];
         font[fontVariation.name] = {
             family: {
                 value: `${fontVariation.style.fontFamily}`,
