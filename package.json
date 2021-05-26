@@ -25,10 +25,10 @@
     "style-dictionary": "^2.10.3"
   },
   "exports": {
-    "theme": {
+    "./theme": {
       "require": "./build/tailwind/theme.js"
     },
-    "icons": {
+    "./icons": {
       "require": "./build/tailwind/icons.js"
     }
   }
