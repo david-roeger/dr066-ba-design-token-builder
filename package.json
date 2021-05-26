@@ -29,7 +29,7 @@
       "require": "./build/tailwind/theme.js"
     },
     "./icons": {
-      "require": "./build/tailwind/icons.js"
+      "import": "./build/tailwind/icons.js"
     }
   }
 }
