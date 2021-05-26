@@ -5,6 +5,7 @@ const del = require('del');
 const config = {
     source: ["./tokens.json"],
     platforms: {
+        /*
         css: {
             transformGroup: "css",
             buildPath: "./build/css/",
@@ -12,7 +13,7 @@ const config = {
             destination: "_tokens.css",
             format: "css/variables"
             }]
-        },
+        },*/
         js: {
             transformGroup: "js",
             buildPath: "./build/tailwind/",
@@ -32,7 +33,11 @@ async function run() {
     await styleDictionary.buildAllPlatforms();
     fs.copyFile('./tailwind.config.js', './build/tailwind/theme.js', (err) => {
         if (err) throw err;
-        console.log('source.txt was copied to destination.txt');
+        console.log('tailwind.config was copied to destination.txt');
+      });
+    fs.copyFile('./icons.config.js', './build/tailwind/icons.js', (err) => {
+        if (err) throw err;
+        console.log('icons.config was copied to destination.txt');
       });
     await del('tokens.json');
     console.log(`Build Dictionary done (${new Date().toLocaleTimeString()})`);

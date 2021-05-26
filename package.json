@@ -25,8 +25,11 @@
     "style-dictionary": "^2.10.3"
   },
   "exports": {
-    ".": {
+    "theme": {
       "require": "./build/tailwind/theme.js"
+    },
+    "icons": {
+      "require": "./build/tailwind/icons.js"
     }
   }
 }
