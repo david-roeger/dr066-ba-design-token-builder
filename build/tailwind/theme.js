@@ -1,4 +1,4 @@
-const { colors, font, spacing, breakPoints, grid } = require('./_tokens');
+const { colors, font, spacing, borders, breakPoints, grid } = require('./_tokens');
 
 // get Colors
 let colorObj = {}
@@ -24,6 +24,12 @@ for (const element in font) {
 let spacingObj= {}
 for (const element in spacing) {
   spacingObj[element] = spacing[element].value
+}
+
+// get Borders
+let bordersObj = {};
+for (const element in borders) {
+  bordersObj[element] = borders[element].value
 }
 
 // get Breakpoints
@@ -53,6 +59,12 @@ module.exports = {
   },
   spacing: {
       ...spacingObj
+  },
+  borderWidth: {
+    ...bordersObj
+  },
+  ringWidth: {
+    ...bordersObj
   },
   extend: {
     fontFamily: {

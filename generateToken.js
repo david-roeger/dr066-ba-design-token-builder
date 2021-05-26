@@ -88,6 +88,29 @@ function getSpacing(stylesArtboard) {
     return spacing;
 }
 
+// get border styles from styles artboard
+function getBorders(stylesArtboard) {
+    const borders = {};
+    const bordersArtboard = stylesArtboard.filter(style => {
+        return style.name === "Border";
+    })[0].children;
+    
+    bordersArtboard.map(border => {
+        // filter comments
+        if(border.type == 'TEXT') {
+            return
+        }
+
+        console.log(border);
+
+        borders[border.name] = {
+            value: `${border.strokeWeight}px`,
+            type: "border"
+        }
+    });
+    return borders;
+}
+
 // get breakpoints from styles artboard
 function getBreakPoints(stylesArtboard) {
     const breakPoints = {};
@@ -154,6 +177,7 @@ function setDesignTokens() {
         colors: {},
         font: {},
         spacing: {},
+        borders: {},
         breakPoints: {},
         grid: {}
     };
@@ -162,6 +186,7 @@ function setDesignTokens() {
     designTokens.colors = getColors(stylesArtboard);
     designTokens.font = getFont(stylesArtboard);
     designTokens.spacing = getSpacing(stylesArtboard);
+    designTokens.borders = getBorders(stylesArtboard);
     designTokens.breakPoints = getBreakPoints(stylesArtboard);
     designTokens.grid = getGrid(stylesArtboard);
 }

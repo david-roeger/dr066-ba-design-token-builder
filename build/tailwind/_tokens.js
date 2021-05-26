@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 May 2021 11:35:40 GMT
+ * Generated on Wed, 26 May 2021 13:00:00 GMT
  */
 
 module.exports = {
@@ -643,6 +643,25 @@ module.exports = {
       "path": [
         "spacing",
         "2xl"
+      ]
+    }
+  },
+  "borders": {
+    "DEFAULT": {
+      "value": "2px",
+      "type": "border",
+      "original": {
+        "value": "2px",
+        "type": "border"
+      },
+      "name": "BordersDefault",
+      "attributes": {
+        "category": "borders",
+        "type": "DEFAULT"
+      },
+      "path": [
+        "borders",
+        "DEFAULT"
       ]
     }
   },
