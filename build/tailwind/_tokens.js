@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 25 May 2021 22:39:25 GMT
+ * Generated on Wed, 26 May 2021 09:07:11 GMT
  */
 
 module.exports = {
@@ -626,6 +626,23 @@ module.exports = {
       "path": [
         "spacing",
         "xl"
+      ]
+    },
+    "2xl": {
+      "value": "40px",
+      "type": "space",
+      "original": {
+        "value": "40px",
+        "type": "space"
+      },
+      "name": "Spacing2Xl",
+      "attributes": {
+        "category": "spacing",
+        "type": "2xl"
+      },
+      "path": [
+        "spacing",
+        "2xl"
       ]
     }
   },
