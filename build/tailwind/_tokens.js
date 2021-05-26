@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 May 2021 09:07:11 GMT
+ * Generated on Wed, 26 May 2021 11:35:40 GMT
  */
 
 module.exports = {
@@ -209,157 +209,157 @@ module.exports = {
         "pink-700"
       ]
     },
-    "purple-300": {
+    "zwave-300": {
       "value": "rgba(220, 194, 255, 1)",
       "type": "color",
       "original": {
         "value": "rgba(220, 194, 255, 1)",
         "type": "color"
       },
-      "name": "ColorsPurple300",
+      "name": "ColorsZwave300",
       "attributes": {
         "category": "colors",
-        "type": "purple-300"
+        "type": "zwave-300"
       },
       "path": [
         "colors",
-        "purple-300"
+        "zwave-300"
       ]
     },
-    "purple-500": {
+    "zwave-500": {
       "value": "rgba(183, 129, 251, 1)",
       "type": "color",
       "original": {
         "value": "rgba(183, 129, 251, 1)",
         "type": "color"
       },
-      "name": "ColorsPurple500",
+      "name": "ColorsZwave500",
       "attributes": {
         "category": "colors",
-        "type": "purple-500"
+        "type": "zwave-500"
       },
       "path": [
         "colors",
-        "purple-500"
+        "zwave-500"
       ]
     },
-    "purple-700": {
+    "zwave-700": {
       "value": "rgba(153, 105, 214, 1)",
       "type": "color",
       "original": {
         "value": "rgba(153, 105, 214, 1)",
         "type": "color"
       },
-      "name": "ColorsPurple700",
+      "name": "ColorsZwave700",
       "attributes": {
         "category": "colors",
-        "type": "purple-700"
+        "type": "zwave-700"
       },
       "path": [
         "colors",
-        "purple-700"
+        "zwave-700"
       ]
     },
-    "green-300": {
+    "enocean-300": {
       "value": "rgba(181, 239, 226, 1)",
       "type": "color",
       "original": {
         "value": "rgba(181, 239, 226, 1)",
         "type": "color"
       },
-      "name": "ColorsGreen300",
+      "name": "ColorsEnocean300",
       "attributes": {
         "category": "colors",
-        "type": "green-300"
+        "type": "enocean-300"
       },
       "path": [
         "colors",
-        "green-300"
+        "enocean-300"
       ]
     },
-    "green-500": {
+    "enocean-500": {
       "value": "rgba(106, 211, 188, 1)",
       "type": "color",
       "original": {
         "value": "rgba(106, 211, 188, 1)",
         "type": "color"
       },
-      "name": "ColorsGreen500",
+      "name": "ColorsEnocean500",
       "attributes": {
         "category": "colors",
-        "type": "green-500"
+        "type": "enocean-500"
       },
       "path": [
         "colors",
-        "green-500"
+        "enocean-500"
       ]
     },
-    "green-700": {
+    "enocean-700": {
       "value": "rgba(83, 177, 157, 1)",
       "type": "color",
       "original": {
         "value": "rgba(83, 177, 157, 1)",
         "type": "color"
       },
-      "name": "ColorsGreen700",
+      "name": "ColorsEnocean700",
       "attributes": {
         "category": "colors",
-        "type": "green-700"
+        "type": "enocean-700"
       },
       "path": [
         "colors",
-        "green-700"
+        "enocean-700"
       ]
     },
-    "orange-300": {
+    "zigbee-300": {
       "value": "rgba(253, 178, 142, 1)",
       "type": "color",
       "original": {
         "value": "rgba(253, 178, 142, 1)",
         "type": "color"
       },
-      "name": "ColorsOrange300",
+      "name": "ColorsZigbee300",
       "attributes": {
         "category": "colors",
-        "type": "orange-300"
+        "type": "zigbee-300"
       },
       "path": [
         "colors",
-        "orange-300"
+        "zigbee-300"
       ]
     },
-    "orange-500": {
+    "zigbee-500": {
       "value": "rgba(250, 139, 84, 1)",
       "type": "color",
       "original": {
         "value": "rgba(250, 139, 84, 1)",
         "type": "color"
       },
-      "name": "ColorsOrange500",
+      "name": "ColorsZigbee500",
       "attributes": {
         "category": "colors",
-        "type": "orange-500"
+        "type": "zigbee-500"
       },
       "path": [
         "colors",
-        "orange-500"
+        "zigbee-500"
       ]
     },
-    "orange-700": {
+    "zigbee-700": {
       "value": "rgba(218, 120, 73, 1)",
       "type": "color",
       "original": {
         "value": "rgba(218, 120, 73, 1)",
         "type": "color"
       },
-      "name": "ColorsOrange700",
+      "name": "ColorsZigbee700",
       "attributes": {
         "category": "colors",
-        "type": "orange-700"
+        "type": "zigbee-700"
       },
       "path": [
         "colors",
-        "orange-700"
+        "zigbee-700"
       ]
     }
   },

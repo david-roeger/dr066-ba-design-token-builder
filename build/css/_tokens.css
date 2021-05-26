@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 May 2021 09:07:11 GMT
+ * Generated on Wed, 26 May 2021 11:35:40 GMT
  */
 
 :root {
@@ -16,15 +16,15 @@
   --colors-pink-300: rgba(255, 190, 217, 1);
   --colors-pink-500: rgba(249, 115, 171, 1);
   --colors-pink-700: rgba(205, 85, 135, 1);
-  --colors-purple-300: rgba(220, 194, 255, 1);
-  --colors-purple-500: rgba(183, 129, 251, 1);
-  --colors-purple-700: rgba(153, 105, 214, 1);
-  --colors-green-300: rgba(181, 239, 226, 1);
-  --colors-green-500: rgba(106, 211, 188, 1);
-  --colors-green-700: rgba(83, 177, 157, 1);
-  --colors-orange-300: rgba(253, 178, 142, 1);
-  --colors-orange-500: rgba(250, 139, 84, 1);
-  --colors-orange-700: rgba(218, 120, 73, 1);
+  --colors-zwave-300: rgba(220, 194, 255, 1);
+  --colors-zwave-500: rgba(183, 129, 251, 1);
+  --colors-zwave-700: rgba(153, 105, 214, 1);
+  --colors-enocean-300: rgba(181, 239, 226, 1);
+  --colors-enocean-500: rgba(106, 211, 188, 1);
+  --colors-enocean-700: rgba(83, 177, 157, 1);
+  --colors-zigbee-300: rgba(253, 178, 142, 1);
+  --colors-zigbee-500: rgba(250, 139, 84, 1);
+  --colors-zigbee-700: rgba(218, 120, 73, 1);
   --font-sm-family: Inter;
   --font-sm-size: 12px;
   --font-sm-lineheight: 16px;
