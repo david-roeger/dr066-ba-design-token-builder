@@ -35,10 +35,6 @@ async function run() {
         if (err) throw err;
         console.log('tailwind.config was copied to destination.txt');
       });
-    fs.copyFile('./icons.config.js', './build/tailwind/icons.js', (err) => {
-        if (err) throw err;
-        console.log('icons.config was copied to destination.txt');
-      });
     await del('tokens.json');
     console.log(`Build Dictionary done (${new Date().toLocaleTimeString()})`);
     console.log();

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 26 May 2021 20:01:28 GMT
+ * Generated on Thu, 27 May 2021 13:30:47 GMT
  */
 
 module.exports = {
@@ -363,7 +363,185 @@ module.exports = {
       ]
     }
   },
-  "font": {},
+  "font": {
+    "sm": {
+      "family": {
+        "value": "Inter",
+        "type": "typography",
+        "original": {
+          "value": "Inter",
+          "type": "typography"
+        },
+        "name": "FontSmFamily",
+        "attributes": {
+          "category": "font",
+          "type": "sm",
+          "item": "family"
+        },
+        "path": [
+          "font",
+          "sm",
+          "family"
+        ]
+      },
+      "size": {
+        "value": "12px",
+        "type": "typography",
+        "original": {
+          "value": "12px",
+          "type": "typography"
+        },
+        "name": "FontSmSize",
+        "attributes": {
+          "category": "font",
+          "type": "sm",
+          "item": "size"
+        },
+        "path": [
+          "font",
+          "sm",
+          "size"
+        ]
+      },
+      "lineheight": {
+        "value": "16px",
+        "type": "typography",
+        "original": {
+          "value": "16px",
+          "type": "typography"
+        },
+        "name": "FontSmLineheight",
+        "attributes": {
+          "category": "font",
+          "type": "sm",
+          "item": "lineheight"
+        },
+        "path": [
+          "font",
+          "sm",
+          "lineheight"
+        ]
+      }
+    },
+    "base": {
+      "family": {
+        "value": "Inter",
+        "type": "typography",
+        "original": {
+          "value": "Inter",
+          "type": "typography"
+        },
+        "name": "FontBaseFamily",
+        "attributes": {
+          "category": "font",
+          "type": "base",
+          "item": "family"
+        },
+        "path": [
+          "font",
+          "base",
+          "family"
+        ]
+      },
+      "size": {
+        "value": "16px",
+        "type": "typography",
+        "original": {
+          "value": "16px",
+          "type": "typography"
+        },
+        "name": "FontBaseSize",
+        "attributes": {
+          "category": "font",
+          "type": "base",
+          "item": "size"
+        },
+        "path": [
+          "font",
+          "base",
+          "size"
+        ]
+      },
+      "lineheight": {
+        "value": "24px",
+        "type": "typography",
+        "original": {
+          "value": "24px",
+          "type": "typography"
+        },
+        "name": "FontBaseLineheight",
+        "attributes": {
+          "category": "font",
+          "type": "base",
+          "item": "lineheight"
+        },
+        "path": [
+          "font",
+          "base",
+          "lineheight"
+        ]
+      }
+    },
+    "xl": {
+      "family": {
+        "value": "Inter",
+        "type": "typography",
+        "original": {
+          "value": "Inter",
+          "type": "typography"
+        },
+        "name": "FontXlFamily",
+        "attributes": {
+          "category": "font",
+          "type": "xl",
+          "item": "family"
+        },
+        "path": [
+          "font",
+          "xl",
+          "family"
+        ]
+      },
+      "size": {
+        "value": "24px",
+        "type": "typography",
+        "original": {
+          "value": "24px",
+          "type": "typography"
+        },
+        "name": "FontXlSize",
+        "attributes": {
+          "category": "font",
+          "type": "xl",
+          "item": "size"
+        },
+        "path": [
+          "font",
+          "xl",
+          "size"
+        ]
+      },
+      "lineheight": {
+        "value": "32px",
+        "type": "typography",
+        "original": {
+          "value": "32px",
+          "type": "typography"
+        },
+        "name": "FontXlLineheight",
+        "attributes": {
+          "category": "font",
+          "type": "xl",
+          "item": "lineheight"
+        },
+        "path": [
+          "font",
+          "xl",
+          "lineheight"
+        ]
+      }
+    }
+  },
   "spacing": {
     "xs": {
       "value": "4px",
@@ -624,42 +802,6 @@ module.exports = {
       "path": [
         "grid",
         "xl"
-      ]
-    }
-  },
-  "iconReference": {
-    "types": {
-      "value": "Default;heating;light;electricity;garage;camera",
-      "type": "type",
-      "original": {
-        "value": "Default;heating;light;electricity;garage;camera",
-        "type": "type"
-      },
-      "name": "IconReferenceTypes",
-      "attributes": {
-        "category": "iconReference",
-        "type": "types"
-      },
-      "path": [
-        "iconReference",
-        "types"
-      ]
-    },
-    "colors": {
-      "value": "Default;zwave;enocean;zigbee",
-      "type": "colors",
-      "original": {
-        "value": "Default;zwave;enocean;zigbee",
-        "type": "colors"
-      },
-      "name": "IconReferenceColors",
-      "attributes": {
-        "category": "iconReference",
-        "type": "colors"
-      },
-      "path": [
-        "iconReference",
-        "colors"
       ]
     }
   }

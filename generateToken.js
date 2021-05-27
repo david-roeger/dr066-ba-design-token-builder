@@ -45,26 +45,28 @@ function getFont(stylesArtboard) {
     const fontArtboard = stylesArtboard.filter(style => {
         return style.name === "Typography";
     })[0].children;
-   /*
-    fontArtboard.map(fontVariationComponent => {
-        console.log()
-        fontVariation = fontVariationComponent.children[0];
-        font[fontVariation.name] = {
-            family: {
-                value: `${fontVariation.style.fontFamily}`,
-                type: "typography"
-            },
-            size: {
-                value: `${fontVariation.style.fontSize}px`,
-                type: "typography"
-            },
-            lineheight: {
-                value: `${fontVariation.style.lineHeightPx}px`,
-                type: "typography"
+
+    fontArtboard.map(fontComponentSet => {
+       fontComponentSet.children.forEach(fontComponent => {
+        console.log(fontComponent);
+            fontVariation = fontComponent.children[0];
+            font[fontVariation.name] = {
+                family: {
+                    value: `${fontVariation.style.fontFamily}`,
+                    type: "typography"
+                },
+                size: {
+                    value: `${fontVariation.style.fontSize}px`,
+                    type: "typography"
+                },
+                lineheight: {
+                    value: `${fontVariation.style.lineHeightPx}px`,
+                    type: "typography"
+                }
             }
-        }
+       });
     });
-    */
+    
     return font;
 }
 
@@ -153,48 +155,6 @@ function getGrid(stylesArtboard) {
     return grid;
 }
 
-// get icon reference from styles artboard
-function getDeviceIconReference() {
-    const componentsArtboard = figmaTree.document.children.filter(item => {
-        return item.name === "Components";
-    })[0].children;
-    const iconReference = {
-        types: new Set,
-        colors: new Set
-    };
-    const iconArtboard = componentsArtboard.filter(style => {
-        return style.name === "Icons";
-    })[0].children;
-
-    iconArtboard.map(iconComponent => {
-        // filter comments
-
-        console.log(iconComponent.name.includes("state"))
-        if(iconComponent.type != 'COMPONENT_SET' || iconComponent.name.includes("state")) {
-            return
-        }
-        iconComponent.children.forEach(variant => {
-            nameArray = variant.name.split(", ");
-            let type = nameArray[0].split("=")[1];
-            let color = nameArray[1].split("=")[1];
-            iconReference.types.add(type)
-            iconReference.colors.add(color)
-        });
-
-
-        iconReference.types = {
-            value: [...iconReference.types].join(";"),
-            type: "type"
-        }
-
-        iconReference.colors = {
-            value: [...iconReference.colors].join(";"),
-            type: "colors"
-        }
-    });
-    return iconReference;
-}
-
 // get figma json
 const figmaApiToken = "189840-58838f90-2466-48a1-9634-2006f1332482"
 const figmaId = "kGm31xFt0PUcFsiqSzdwk0"
@@ -221,8 +181,7 @@ function setDesignTokens() {
         spacing: {},
         borders: {},
         breakPoints: {},
-        grid: {},
-        iconReference: {},
+        grid: {}
     };
 
     // populate design tokens
@@ -232,7 +191,6 @@ function setDesignTokens() {
     designTokens.borders = getBorders(stylesArtboard);
     designTokens.breakPoints = getBreakPoints(stylesArtboard);
     designTokens.grid = getGrid(stylesArtboard);
-    designTokens.iconReference = getDeviceIconReference(stylesArtboard);
 }
 
 async function writeJsonFile() {
