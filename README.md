@@ -16,14 +16,14 @@ npm run dev
 
 Generate Tokens:
 ```bash
-npm run generate
+npm run tokens
 ```
 
 <br>
 
 Build Dictionary Files:
 ```bash
-npm run build-dictionary
+npm run dictionary
 ```
 
 <br>

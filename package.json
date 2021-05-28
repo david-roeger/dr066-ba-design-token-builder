@@ -5,9 +5,10 @@
   "main": "./build/tailwind/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node generateToken.js",
-    "build-dictionary": "node buildDictionary.js",
-    "build": "npm run generate && npm run build-dictionary"
+    "icons": "node generateIcons.js",
+    "tokens": "node generateTokens.js",
+    "dictionary": "node generateDictionary.js",
+    "build": "npm run tokens && npm run dictionary"
   },
   "repository": {
     "type": "git",
