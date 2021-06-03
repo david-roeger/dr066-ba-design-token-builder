@@ -73,7 +73,12 @@ function getFont(stylesArtboard) {
 
 // get font from styles artboard
 function getSpacing(stylesArtboard) {
-    const spacing = {};
+    const spacing = {
+        0: {
+            "value": "0px",
+            "type": "space"
+        },
+    };
     const spacingArtboard = stylesArtboard.filter(style => {
         return style.name === "Spacing";
     })[0].children;
