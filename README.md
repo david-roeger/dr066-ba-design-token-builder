@@ -1,7 +1,7 @@
 # Design Tokens
 
-Generate Design Tokens based on Figma file.
-Current Targets include CSS and tailwindcss
+Generate Design Tokens based on [Figma File](https://www.figma.com/file/kGm31xFt0PUcFsiqSzdwk0/Design-System?node-id=13%3A2).
+Current Targets include Web and tailwindcss
 
 Edit ```config Object``` in ```buildDictionary.js``` for more plattform support
 
