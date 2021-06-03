@@ -30,6 +30,6 @@
       "require": "./build/web/TailwindTheme.js"
     },
     "./web": "./build/web/_tokens.js",
-    "./tokens": "./tokens.js"
+    "./tokens": "./tokens.json"
   }
 }
