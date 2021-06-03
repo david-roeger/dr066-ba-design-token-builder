@@ -13,12 +13,17 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js
-      uses: actions/setup-node@v1
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: npm install, build
+      run: |
+          npm install
+          npm run build --if-present
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
       with:
-        node-version: '14.x'
-    - run: npm ci
-    - run: npm run build
+          name: dist
+          path: |
+            build
