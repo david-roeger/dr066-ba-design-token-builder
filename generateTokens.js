@@ -75,7 +75,7 @@ function getFont(stylesArtboard) {
 function getSpacing(stylesArtboard) {
     const spacing = {
         0: {
-            "value": "0px",
+            "value": "100px",
             "type": "space"
         },
     };
