@@ -26,9 +26,9 @@
     "style-dictionary": "^2.10.3"
   },
   "exports": {
-    "tailwindTheme": {
+    "./tailwindTheme": {
       "require": "./build/web/TailwindTheme.js"
     },
-    "tokens": "./build/web/_tokens.js"
+    "./tokens": "./build/web/_tokens.js"
   }
 }
