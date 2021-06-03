@@ -27,7 +27,7 @@
   },
   "exports": {
     "./tailwindTheme": {
-      "require": "./build/web/TailwindTheme.js"
+      "require": "./build/web/tailwindTheme.js"
     },
     "./web": "./build/web/_tokens.js",
     "./tokens": "./tokens.json"
