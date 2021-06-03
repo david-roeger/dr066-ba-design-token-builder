@@ -29,8 +29,6 @@
     ".": {
       "require": "./build/web/TailwindTheme.js"
     },
-    "tokens": {
-      "import": "./build/web/_tokens.js"
-    }
+    "tokens": "./build/web/_tokens.js"
   }
 }
