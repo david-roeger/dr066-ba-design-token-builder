@@ -16,7 +16,7 @@ const config = {
         },*/
         js: {
             transformGroup: "js",
-            buildPath: "./build/tailwind/",
+            buildPath: "./build/web/",
             files: [{
             destination: "_tokens.js",
             format: "javascript/module"
@@ -31,11 +31,10 @@ const styleDictionary = require('style-dictionary').extend(config);
 async function run() {
     await del('./build');
     await styleDictionary.buildAllPlatforms();
-    fs.copyFile('./tailwind.config.js', './build/tailwind/theme.js', (err) => {
+    fs.copyFile('./tailwind.config.js', './build/web/tailwindTheme.js', (err) => {
         if (err) throw err;
         console.log('tailwind.config was copied to destination.txt');
       });
-    await del('tokens.json');
     console.log(`Build Dictionary done (${new Date().toLocaleTimeString()})`);
     console.log();
 }

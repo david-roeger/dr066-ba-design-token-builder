@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 03 Jun 2021 10:42:07 GMT
+ * Generated on Thu, 03 Jun 2021 11:17:47 GMT
  */
 
 module.exports = {
@@ -544,10 +544,10 @@ module.exports = {
   },
   "spacing": {
     "0": {
-      "value": "0px",
+      "value": "100px",
       "type": "space",
       "original": {
-        "value": "0px",
+        "value": "100px",
         "type": "space"
       },
       "name": "Spacing0",
