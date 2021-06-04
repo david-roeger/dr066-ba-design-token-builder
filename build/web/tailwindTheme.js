@@ -1,4 +1,4 @@
-const { colors, font, spacing, borders, breakPoints, grid } = require('./_tokens');
+const { colors, font, spacing, borders, breakPoints, grid } = require('./tokens');
 
 // get Colors
 let colorObj = {}
