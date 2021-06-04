@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Jun 2021 11:43:56 GMT
+ * Generated on Fri, 04 Jun 2021 12:03:51 GMT
  */
 
 module.exports = {
@@ -562,10 +562,10 @@ module.exports = {
         ]
       },
       "size": {
-        "value": "48px",
+        "value": "36px",
         "type": "typography",
         "original": {
-          "value": "48px",
+          "value": "36px",
           "type": "typography"
         },
         "name": "Font2XlSize",
@@ -581,10 +581,10 @@ module.exports = {
         ]
       },
       "lineheight": {
-        "value": "56px",
+        "value": "42px",
         "type": "typography",
         "original": {
-          "value": "56px",
+          "value": "42px",
           "type": "typography"
         },
         "name": "Font2XlLineheight",

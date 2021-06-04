@@ -29,7 +29,7 @@
     "./tailwindTheme": {
       "require": "./build/web/tailwindTheme.js"
     },
-    "./web": "./build/web/_tokens.js",
-    "./tokens": "./tokens.json"
+    "./web": "./build/web/tokens.js",
+    "./tokens": "./build/tokens.json"
   }
 }
