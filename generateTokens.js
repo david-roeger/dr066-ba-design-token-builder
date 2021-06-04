@@ -49,8 +49,9 @@ function getFont(stylesArtboard) {
     fontArtboard.map(fontComponentSet => {
        fontComponentSet.children.forEach(fontComponent => {
         console.log(fontComponent);
+        let name = fontComponent.name.split("=")[1]
             fontVariation = fontComponent.children[0];
-            font[fontVariation.name] = {
+            font[name] = {
                 family: {
                     value: `${fontVariation.style.fontFamily}`,
                     type: "typography"

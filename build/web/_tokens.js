@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 03 Jun 2021 11:21:52 GMT
+ * Generated on Fri, 04 Jun 2021 11:43:56 GMT
  */
 
 module.exports = {
@@ -537,6 +537,65 @@ module.exports = {
         "path": [
           "font",
           "xl",
+          "lineheight"
+        ]
+      }
+    },
+    "2xl": {
+      "family": {
+        "value": "Inter",
+        "type": "typography",
+        "original": {
+          "value": "Inter",
+          "type": "typography"
+        },
+        "name": "Font2XlFamily",
+        "attributes": {
+          "category": "font",
+          "type": "2xl",
+          "item": "family"
+        },
+        "path": [
+          "font",
+          "2xl",
+          "family"
+        ]
+      },
+      "size": {
+        "value": "48px",
+        "type": "typography",
+        "original": {
+          "value": "48px",
+          "type": "typography"
+        },
+        "name": "Font2XlSize",
+        "attributes": {
+          "category": "font",
+          "type": "2xl",
+          "item": "size"
+        },
+        "path": [
+          "font",
+          "2xl",
+          "size"
+        ]
+      },
+      "lineheight": {
+        "value": "56px",
+        "type": "typography",
+        "original": {
+          "value": "56px",
+          "type": "typography"
+        },
+        "name": "Font2XlLineheight",
+        "attributes": {
+          "category": "font",
+          "type": "2xl",
+          "item": "lineheight"
+        },
+        "path": [
+          "font",
+          "2xl",
           "lineheight"
         ]
       }
