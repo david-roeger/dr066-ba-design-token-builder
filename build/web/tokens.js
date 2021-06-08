@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Jun 2021 12:07:19 GMT
+ * Generated on Tue, 08 Jun 2021 15:49:59 GMT
  */
 
 module.exports = {
@@ -385,10 +385,10 @@ module.exports = {
         ]
       },
       "size": {
-        "value": "12px",
+        "value": "14px",
         "type": "typography",
         "original": {
-          "value": "12px",
+          "value": "14px",
           "type": "typography"
         },
         "name": "FontSmSize",
@@ -404,10 +404,10 @@ module.exports = {
         ]
       },
       "lineheight": {
-        "value": "16px",
+        "value": "18px",
         "type": "typography",
         "original": {
-          "value": "16px",
+          "value": "18px",
           "type": "typography"
         },
         "name": "FontSmLineheight",
