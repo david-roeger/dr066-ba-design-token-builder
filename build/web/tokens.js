@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 08 Jun 2021 15:49:59 GMT
+ * Generated on Thu, 10 Jun 2021 13:00:52 GMT
  */
 
 module.exports = {
@@ -364,65 +364,6 @@ module.exports = {
     }
   },
   "font": {
-    "sm": {
-      "family": {
-        "value": "Inter",
-        "type": "typography",
-        "original": {
-          "value": "Inter",
-          "type": "typography"
-        },
-        "name": "FontSmFamily",
-        "attributes": {
-          "category": "font",
-          "type": "sm",
-          "item": "family"
-        },
-        "path": [
-          "font",
-          "sm",
-          "family"
-        ]
-      },
-      "size": {
-        "value": "14px",
-        "type": "typography",
-        "original": {
-          "value": "14px",
-          "type": "typography"
-        },
-        "name": "FontSmSize",
-        "attributes": {
-          "category": "font",
-          "type": "sm",
-          "item": "size"
-        },
-        "path": [
-          "font",
-          "sm",
-          "size"
-        ]
-      },
-      "lineheight": {
-        "value": "18px",
-        "type": "typography",
-        "original": {
-          "value": "18px",
-          "type": "typography"
-        },
-        "name": "FontSmLineheight",
-        "attributes": {
-          "category": "font",
-          "type": "sm",
-          "item": "lineheight"
-        },
-        "path": [
-          "font",
-          "sm",
-          "lineheight"
-        ]
-      }
-    },
     "base": {
       "family": {
         "value": "Inter",
@@ -478,6 +419,65 @@ module.exports = {
         "path": [
           "font",
           "base",
+          "lineheight"
+        ]
+      }
+    },
+    "sm": {
+      "family": {
+        "value": "Inter",
+        "type": "typography",
+        "original": {
+          "value": "Inter",
+          "type": "typography"
+        },
+        "name": "FontSmFamily",
+        "attributes": {
+          "category": "font",
+          "type": "sm",
+          "item": "family"
+        },
+        "path": [
+          "font",
+          "sm",
+          "family"
+        ]
+      },
+      "size": {
+        "value": "14px",
+        "type": "typography",
+        "original": {
+          "value": "14px",
+          "type": "typography"
+        },
+        "name": "FontSmSize",
+        "attributes": {
+          "category": "font",
+          "type": "sm",
+          "item": "size"
+        },
+        "path": [
+          "font",
+          "sm",
+          "size"
+        ]
+      },
+      "lineheight": {
+        "value": "18px",
+        "type": "typography",
+        "original": {
+          "value": "18px",
+          "type": "typography"
+        },
+        "name": "FontSmLineheight",
+        "attributes": {
+          "category": "font",
+          "type": "sm",
+          "item": "lineheight"
+        },
+        "path": [
+          "font",
+          "sm",
           "lineheight"
         ]
       }
