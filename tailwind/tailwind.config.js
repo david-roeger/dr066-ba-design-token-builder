@@ -60,9 +60,6 @@ module.exports = {
   spacing: {
       ...spacingObj
   },
-  borderRadius: {
-    ...spacingObj
-  },
   borderWidth: {
     ...bordersObj
   },
@@ -72,6 +69,9 @@ module.exports = {
   extend: {
     fontFamily: {
       ...fontObj.fontFamily
+    },
+    borderRadius: {
+      ...spacingObj
     },
     gridTemplateColumns: {
       ...gridObj

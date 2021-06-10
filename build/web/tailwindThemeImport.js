@@ -60,9 +60,6 @@ export default {
   spacing: {
       ...spacingObj
   },
-  borderRadius: {
-    ...spacingObj
-  },
   borderWidth: {
     ...bordersObj
   },
@@ -72,6 +69,9 @@ export default {
   extend: {
     fontFamily: {
       ...fontObj.fontFamily
+    },
+    borderRadius: {
+      ...spacingObj
     },
     gridTemplateColumns: {
       ...gridObj
