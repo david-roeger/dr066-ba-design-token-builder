@@ -60,6 +60,9 @@ module.exports = {
   spacing: {
       ...spacingObj
   },
+  borderRadius: {
+    ...spacingObj
+  },
   borderWidth: {
     ...bordersObj
   },

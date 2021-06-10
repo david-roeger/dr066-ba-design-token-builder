@@ -60,6 +60,9 @@ export default {
   spacing: {
       ...spacingObj
   },
+  borderRadius: {
+    ...spacingObj
+  },
   borderWidth: {
     ...bordersObj
   },
