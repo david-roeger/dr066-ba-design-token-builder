@@ -32,7 +32,7 @@ function getColors(stylesArtboard) {
         let a = fill?.opacity ? fill.opacity.toFixed(2) : '1';
 
         colors[color.name] = {
-            value: `rgba(${r}, ${g}, ${b}, ${a})`,
+            value: a == 1 ? `rgb(${r}, ${g}, ${b}` : `rgba(${r}, ${g}, ${b}, ${a})`,
             type: "color"
         }
     });
@@ -48,7 +48,6 @@ function getFont(stylesArtboard) {
 
     fontArtboard.map(fontComponentSet => {
        fontComponentSet.children.forEach(fontComponent => {
-        console.log(fontComponent);
             let name = fontComponent.name.split("=")[1]
             fontVariation = fontComponent.children[0];
             font[name] = {

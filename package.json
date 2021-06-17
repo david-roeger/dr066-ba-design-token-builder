@@ -26,7 +26,7 @@
     "style-dictionary": "^2.10.3"
   },
   "exports": {
-    "." : "./build/web/tailwindThemeImport.js", 
+    ".": "./build/web/tailwindThemeImport.js",
     "./tailwindTheme": {
       "require": "./build/web/tailwindTheme.js"
     },
