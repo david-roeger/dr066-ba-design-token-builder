@@ -32,7 +32,7 @@ function getColors(stylesArtboard) {
         let a = fill?.opacity ? fill.opacity.toFixed(2) : '1';
 
         colors[color.name] = {
-            value: a == 1 ? `rgb(${r}, ${g}, ${b}` : `rgba(${r}, ${g}, ${b}, ${a})`,
+            value: a == 1 ? `rgb(${r}, ${g}, ${b})` : `rgba(${r}, ${g}, ${b}, ${a})`,
             type: "color"
         }
     });

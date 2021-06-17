@@ -1,15 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Thu, 17 Jun 2021 16:07:54 GMT
+ * Generated on Thu, 17 Jun 2021 16:12:09 GMT
  */
 
 module.exports = {
   "colors": {
     "black": {
-      "value": "rgb(11, 11, 28",
+      "value": "rgb(11, 11, 28)",
       "type": "color",
       "original": {
-        "value": "rgb(11, 11, 28",
+        "value": "rgb(11, 11, 28)",
         "type": "color"
       },
       "name": "ColorsBlack",
@@ -23,10 +23,10 @@ module.exports = {
       ]
     },
     "white": {
-      "value": "rgb(255, 255, 255",
+      "value": "rgb(255, 255, 255)",
       "type": "color",
       "original": {
-        "value": "rgb(255, 255, 255",
+        "value": "rgb(255, 255, 255)",
         "type": "color"
       },
       "name": "ColorsWhite",
@@ -40,10 +40,10 @@ module.exports = {
       ]
     },
     "gray-100": {
-      "value": "rgb(236, 239, 244",
+      "value": "rgb(236, 239, 244)",
       "type": "color",
       "original": {
-        "value": "rgb(236, 239, 244",
+        "value": "rgb(236, 239, 244)",
         "type": "color"
       },
       "name": "ColorsGray100",
@@ -57,10 +57,10 @@ module.exports = {
       ]
     },
     "gray-300": {
-      "value": "rgb(218, 221, 227",
+      "value": "rgb(218, 221, 227)",
       "type": "color",
       "original": {
-        "value": "rgb(218, 221, 227",
+        "value": "rgb(218, 221, 227)",
         "type": "color"
       },
       "name": "ColorsGray300",
@@ -74,10 +74,10 @@ module.exports = {
       ]
     },
     "gray-500": {
-      "value": "rgb(109, 109, 119",
+      "value": "rgb(109, 109, 119)",
       "type": "color",
       "original": {
-        "value": "rgb(109, 109, 119",
+        "value": "rgb(109, 109, 119)",
         "type": "color"
       },
       "name": "ColorsGray500",
@@ -91,10 +91,10 @@ module.exports = {
       ]
     },
     "gray-700": {
-      "value": "rgb(58, 58, 58",
+      "value": "rgb(58, 58, 58)",
       "type": "color",
       "original": {
-        "value": "rgb(58, 58, 58",
+        "value": "rgb(58, 58, 58)",
         "type": "color"
       },
       "name": "ColorsGray700",
@@ -108,10 +108,10 @@ module.exports = {
       ]
     },
     "yellow-500": {
-      "value": "rgb(255, 198, 99",
+      "value": "rgb(255, 198, 99)",
       "type": "color",
       "original": {
-        "value": "rgb(255, 198, 99",
+        "value": "rgb(255, 198, 99)",
         "type": "color"
       },
       "name": "ColorsYellow500",
@@ -125,10 +125,10 @@ module.exports = {
       ]
     },
     "blue-500": {
-      "value": "rgb(112, 127, 220",
+      "value": "rgb(112, 127, 220)",
       "type": "color",
       "original": {
-        "value": "rgb(112, 127, 220",
+        "value": "rgb(112, 127, 220)",
         "type": "color"
       },
       "name": "ColorsBlue500",
@@ -142,10 +142,10 @@ module.exports = {
       ]
     },
     "red-500": {
-      "value": "rgb(249, 109, 94",
+      "value": "rgb(249, 109, 94)",
       "type": "color",
       "original": {
-        "value": "rgb(249, 109, 94",
+        "value": "rgb(249, 109, 94)",
         "type": "color"
       },
       "name": "ColorsRed500",
@@ -159,10 +159,10 @@ module.exports = {
       ]
     },
     "pink-300": {
-      "value": "rgb(255, 190, 217",
+      "value": "rgb(255, 190, 217)",
       "type": "color",
       "original": {
-        "value": "rgb(255, 190, 217",
+        "value": "rgb(255, 190, 217)",
         "type": "color"
       },
       "name": "ColorsPink300",
@@ -176,10 +176,10 @@ module.exports = {
       ]
     },
     "pink-500": {
-      "value": "rgb(249, 115, 171",
+      "value": "rgb(249, 115, 171)",
       "type": "color",
       "original": {
-        "value": "rgb(249, 115, 171",
+        "value": "rgb(249, 115, 171)",
         "type": "color"
       },
       "name": "ColorsPink500",
@@ -193,10 +193,10 @@ module.exports = {
       ]
     },
     "pink-700": {
-      "value": "rgb(205, 85, 135",
+      "value": "rgb(205, 85, 135)",
       "type": "color",
       "original": {
-        "value": "rgb(205, 85, 135",
+        "value": "rgb(205, 85, 135)",
         "type": "color"
       },
       "name": "ColorsPink700",
@@ -210,10 +210,10 @@ module.exports = {
       ]
     },
     "zwave-300": {
-      "value": "rgb(220, 194, 255",
+      "value": "rgb(220, 194, 255)",
       "type": "color",
       "original": {
-        "value": "rgb(220, 194, 255",
+        "value": "rgb(220, 194, 255)",
         "type": "color"
       },
       "name": "ColorsZwave300",
@@ -227,10 +227,10 @@ module.exports = {
       ]
     },
     "zwave-500": {
-      "value": "rgb(183, 129, 251",
+      "value": "rgb(183, 129, 251)",
       "type": "color",
       "original": {
-        "value": "rgb(183, 129, 251",
+        "value": "rgb(183, 129, 251)",
         "type": "color"
       },
       "name": "ColorsZwave500",
@@ -244,10 +244,10 @@ module.exports = {
       ]
     },
     "zwave-700": {
-      "value": "rgb(153, 105, 214",
+      "value": "rgb(153, 105, 214)",
       "type": "color",
       "original": {
-        "value": "rgb(153, 105, 214",
+        "value": "rgb(153, 105, 214)",
         "type": "color"
       },
       "name": "ColorsZwave700",
@@ -261,10 +261,10 @@ module.exports = {
       ]
     },
     "enocean-300": {
-      "value": "rgb(181, 239, 226",
+      "value": "rgb(181, 239, 226)",
       "type": "color",
       "original": {
-        "value": "rgb(181, 239, 226",
+        "value": "rgb(181, 239, 226)",
         "type": "color"
       },
       "name": "ColorsEnocean300",
@@ -278,10 +278,10 @@ module.exports = {
       ]
     },
     "enocean-500": {
-      "value": "rgb(106, 211, 188",
+      "value": "rgb(106, 211, 188)",
       "type": "color",
       "original": {
-        "value": "rgb(106, 211, 188",
+        "value": "rgb(106, 211, 188)",
         "type": "color"
       },
       "name": "ColorsEnocean500",
@@ -295,10 +295,10 @@ module.exports = {
       ]
     },
     "enocean-700": {
-      "value": "rgb(83, 177, 157",
+      "value": "rgb(83, 177, 157)",
       "type": "color",
       "original": {
-        "value": "rgb(83, 177, 157",
+        "value": "rgb(83, 177, 157)",
         "type": "color"
       },
       "name": "ColorsEnocean700",
@@ -312,10 +312,10 @@ module.exports = {
       ]
     },
     "zigbee-300": {
-      "value": "rgb(253, 178, 142",
+      "value": "rgb(253, 178, 142)",
       "type": "color",
       "original": {
-        "value": "rgb(253, 178, 142",
+        "value": "rgb(253, 178, 142)",
         "type": "color"
       },
       "name": "ColorsZigbee300",
@@ -329,10 +329,10 @@ module.exports = {
       ]
     },
     "zigbee-500": {
-      "value": "rgb(250, 139, 84",
+      "value": "rgb(250, 139, 84)",
       "type": "color",
       "original": {
-        "value": "rgb(250, 139, 84",
+        "value": "rgb(250, 139, 84)",
         "type": "color"
       },
       "name": "ColorsZigbee500",
@@ -346,10 +346,10 @@ module.exports = {
       ]
     },
     "zigbee-700": {
-      "value": "rgb(218, 120, 73",
+      "value": "rgb(218, 120, 73)",
       "type": "color",
       "original": {
-        "value": "rgb(218, 120, 73",
+        "value": "rgb(218, 120, 73)",
         "type": "color"
       },
       "name": "ColorsZigbee700",
