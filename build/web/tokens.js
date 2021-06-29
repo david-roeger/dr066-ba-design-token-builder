@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 24 Jun 2021 14:29:50 GMT
+ * Generated on Tue, 29 Jun 2021 12:05:38 GMT
  */
 
 module.exports = {
@@ -139,6 +139,23 @@ module.exports = {
       "path": [
         "colors",
         "blue-500"
+      ]
+    },
+    "green-500": {
+      "value": "rgb(112, 220, 148)",
+      "type": "color",
+      "original": {
+        "value": "rgb(112, 220, 148)",
+        "type": "color"
+      },
+      "name": "ColorsGreen500",
+      "attributes": {
+        "category": "colors",
+        "type": "green-500"
+      },
+      "path": [
+        "colors",
+        "green-500"
       ]
     },
     "red-500": {

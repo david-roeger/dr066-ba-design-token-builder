@@ -35,11 +35,11 @@ async function run() {
         if (err) throw err;
         console.log('tokens.json was moved to destination');
       });
-    fs.copyFile('./tailwind/tailwind.config.js', './build/web/tailwindTheme.js', (err) => {
+    fs.copyFile('./tailwind_config/tailwind.config.js', './build/web/tailwindTheme.js', (err) => {
         if (err) throw err;
         console.log('tailwind.config was copied to destination');
       });
-      fs.copyFile('./tailwind/tailwindImport.config.js', './build/web/tailwindThemeImport.js', (err) => {
+      fs.copyFile('./tailwind_config/tailwindImport.config.js', './build/web/tailwindThemeImport.js', (err) => {
         if (err) throw err;
         console.log('tailwindImport.config was copied to destination');
       });
