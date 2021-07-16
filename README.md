@@ -32,7 +32,7 @@ npm run dictionary
 <br>
 
 Using:<br>
-Figma Api + https://amzn.github.io/style-dictionary/
+Figma API + https://amzn.github.io/style-dictionary/
 
 <br>
 
